@@ -1,0 +1,46 @@
+"""para trabajar con archivos usamos with que nos permite abrir un archivo leerlo y cerrarlo automáticamente
+with open("nombre_archivo.extension, "r") as archivo:
+la palabra archivo es una variable, puede ser en inglés file y vamos a poder usar esta variableç
+para usarla, debe estar las sentencias indexadas para que estén dentro de with
+el nombre de ese segundo parámetro nos indica cómo se va a abrir el archivo
+r es read para leer
+
+with open("frases_famosas.txt", "r") as file:
+  for line in file:
+    print("====frase====")
+    print(line)
+    
+r (read-leer)
+w (write-escribir)
+a(append-añadir)
+Agregar un + incluye leer por ejemplo w+ es leeer y escribir
+
+
+importaciones
+poner al principio
+
+import módulo
+
+módulo.función(argumentos)
+
+import math
+math.pow(9,2)
+81.0
+
+importar con nombre alternativo
+
+import math as matematicas
+matematicas.pow(9,2)
+
+importar solo un elemento de un modulo
+
+from modulo imoprt elemento
+
+from math import pow
+pow(9,2)
+
+es preferible la primera opción es más legible
+
+from modulo import * no es recomendado importa todo lo del módulo sin especificar puede crear confusiones
+
+"""
