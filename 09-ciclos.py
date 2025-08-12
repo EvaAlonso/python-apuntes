@@ -52,4 +52,12 @@ for clave, valor in diccionario.items():  # Itera sobre las claves y valores del
 for indice, valor in enumerate(lista):  # Itera sobre la lista con el índice y el valor
     print(f"Índice: {indice}, Valor: {valor}")  # Imprime el índice y el valor correspondiente
     
+# Ciclos while con condiciones: Puedes usar ciclos while para repetir un bloque de código mientras una condición sea verdadera.
+numero = 0  # Inicializa el número en 0
+while numero < 5:  # Mientras el número sea menor que 5
+    print(numero)  # Imprime el valor actual del número
+    numero += 1  # Incrementa el número en 1 en cada iteración
+diccionario["edad"] = 26
+print(diccionario)  # Imprime {'nombre': 'Ana', 'edad': 26, 'ciudad': 'Madrid', 'profesión': 'Ingeniera'}
+    
 # Para saber más sobre ciclos en Python, puedes consultar la documentación oficial en https://docs.python.org/3/tutorial/controlflow.html#for-statements
