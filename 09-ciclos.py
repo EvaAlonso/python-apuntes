@@ -35,4 +35,21 @@ for i in range(1, 6):  # Itera desde 1 hasta 5
 # Uso de la función range() con un rango específico y un paso
 for i in range(1, 10, 3):  # Itera desde 1 hasta 9 con un paso de 3
     print(i)  # Imprime los números 1, 4, 7, 10
+    
+# Ciclos sobre iterables: Puedes usar ciclos for para iterar sobre cualquier objeto iterable, como cadenas, listas, tuplas, diccionarios, etc.
+cadena = "Hola"
+for letra in cadena:  # Itera sobre cada carácter en la cadena
+    print(letra)  # Imprime cada letra de la cadena
+# Ciclos con listas: Puedes usar ciclos for para iterar sobre listas y realizar operaciones en cada elemento.
+lista = [10, 20, 30, 40]
+for numero in lista:  # Itera sobre cada elemento en la lista
+    print(numero)  # Imprime cada número de la lista
+# Ciclos con diccionarios: Puedes iterar sobre las claves o los valores de un diccionario.
+diccionario = {"a": 1, "b": 2, "c": 3}
+for clave, valor in diccionario.items():  # Itera sobre las claves y valores del diccionario
+    print(f"Clave: {clave}, Valor: {valor}")  # Imprime cada clave y su valor asociado
+# Uso de la función enumerate() para obtener el índice y el valor al mismo tiempo
+for indice, valor in enumerate(lista):  # Itera sobre la lista con el índice y el valor
+    print(f"Índice: {indice}, Valor: {valor}")  # Imprime el índice y el valor correspondiente
+    
 # Para saber más sobre ciclos en Python, puedes consultar la documentación oficial en https://docs.python.org/3/tutorial/controlflow.html#for-statements
